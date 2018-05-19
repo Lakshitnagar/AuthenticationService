@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :microposts
   resources :users
   get 'tests/test1'
   get 'welcome/index'
