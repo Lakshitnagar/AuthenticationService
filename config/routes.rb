@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users
   get 'tests/test1'
   get 'welcome/index'
   
