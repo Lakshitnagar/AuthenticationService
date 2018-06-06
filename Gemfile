@@ -7,6 +7,8 @@ ruby '2.4.4'
 gem 'rails', '~> 5.2.0'
 # bcrypt for hashing
 gem 'bcrypt', '3.1.12'
+# To fake sample users
+gem 'faker', '1.7.3'
 # bootstrap
 gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
